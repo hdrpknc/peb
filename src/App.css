@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-family: 'Barrio', cursive;
+}
+
+.App-intro {
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  -webkit-animation: blink 1s step-end infinite;
+  -moz-animation: blink 1s step-end infinite;
+  -o-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+  @-webkit-keyframes blink {
+    67% { opacity: 0 }
+  }
+
+  @-moz-keyframes blink {
+    67% { opacity: 0 }
+  }
+
+  @-o-keyframes blink {
+    67% { opacity: 0 }
+  }
+
+  @keyframes blink {
+    67% { opacity: 0 }
+  }
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.RowContainer {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  box-shadow: 00px 0px 0px #888888;
+}
+
+.Square {
+  font-family: 'Roboto Mono', monospace;
+  border-style: solid;
+  width: 120px;
+  margin: 0;
+  padding: 5px;
+  background: white;
+}
