@@ -64,3 +64,16 @@
   padding: 5px;
   background: white;
 }
+
+@media (max-width: 600px) {
+    .App-header {
+      width: 560px;
+    }
+    .RowContainer {
+        width: 600px; /* 22px difference */
+        height: 120px;
+    }
+    .Square {
+      width: 120px;
+    }
+}
