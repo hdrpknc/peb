@@ -32,7 +32,23 @@ class Board extends Component{
                 "Entwicklungs-umgebung überraschend nicht erreichbar",
                 "Schätzungen wurden gekürzt",
                 "Datenmodell ist falsch",
-                "Kein Budget für SSP gehabt"
+                "Kein Budget für SSP gehabt",
+                //a41-edition
+                "Management will EAs",
+                "Projektmitglied würfelt zahlen im Kopf",
+                "Wir kaufen extern ein",
+                "Projektleitung wird nicht benötigt",
+                "Max. 1 Tag kann ich dafür einplanen",
+                "Muschu",
+                "Projektmitglied täuscht expertise vor",
+                "Dilbert-Reporting",
+                "Projekt-planung/-status ohne beteiligte Personen",
+                "Achso",
+                "Features ohne Mehrwert",
+                "Den Beteiligten ist das Projekt unangenehm",
+                "Getestet wird kurzfistig vorm Go-Live",
+                "Bitte fahre nicht Karussell mit mir",
+                "Wir müssen mal wieder Prioritäten festlegen"
             ];
         this.state = {
             aBingotexts: shuffleArray(aBingotexts),
