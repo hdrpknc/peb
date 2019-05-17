@@ -12,7 +12,7 @@ class Board extends Component{
                 "Projekt-rückabwicklung wird in Betracht gezogen",
                 "Entwickler hat nicht selber geschätzt",
                 "Showstopper war zu Projektstart bekannt",
-                "Wichtiges Projektmitglied ist krank",
+                "Wichtiges Projekt-mitglied ist krank",
                 "SSP ist mangelhaft",
                 "System/ Version/ Entwicklungs-umgebung ist veraltet",
                 "Schwieriger Kunde",
@@ -24,7 +24,7 @@ class Board extends Component{
                 "Keyplayer hat gekündigt",
                 "Keine CRs sondern Defects",
                 "Zeiten auf Business Developmemt buchen",
-                "Projektmitglied /er ist/sind nicht festpreisfähig",
+                "Projekt-mitglied /er ist/sind nicht festpreis-fähig",
                 "Blackbox",
                 "Kunde entzieht Berechtigungen",
                 "Projekt-mitglied bucht kunterbunt Zeiten",
@@ -52,7 +52,9 @@ class Board extends Component{
                 "Mehrere Excels im Umlauf",
                 "Brooks's law",
                 "Projekt-sabotage von Beteiligten",
-                "Arglistige Täuschung von Stakeholdern"
+                "Arglistige Täuschung von Stakeholdern",
+                "Bedenken-träger im Projekt",
+                "stakeholder has no jurisdiction area"
             ];
         this.state = {
             aBingotexts: shuffleArray(aBingotexts),
